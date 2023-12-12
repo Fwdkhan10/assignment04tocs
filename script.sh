@@ -7,4 +7,4 @@ fi
 source "$venvname/bin/activate"
 pip install flask gunicorn
 
-gunicorn -w 4 -b 0.0.0.0:8000 --reload program:app
+gunicorn -w 4 -b 0.0.0.0:1700 --reload program:app
